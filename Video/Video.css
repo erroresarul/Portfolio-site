@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start Head */
+header{
+    width: 100%;
+    height:60px;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+}
+
+header .logo img{
+    font-size: 80px;
+    left: 120px;
+    width: 295px;
+    height: 52px;
+    margin-left:-58px;
+    
+}
+
+.scrbox input{
+    width:355px;
+    height:35px;
+    padding: 12px 10px;
+    margin-left: -45px;
+    margin-top:13px;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    outline: none;
+    border: none;
+}
+
+.scrbox div i {
+    background-color:#00ccff;
+    width:34px;
+    height:33px;
+    border-radius: 0px 0px 3px;
+    padding:1px;
+    font-size:34px;
+    margin-top:13px;
+    margin-left:-36px;
+}
+
+header .nav {
+    position: fixed;
+    list-style: none;
+    right: 150px;
+    top: 6px;
+    
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    display:inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    display:inline-block;
+    color: #6c4003;
+    padding-left:30px ;
+    text-transform: uppercase;
+
+}
+
+.nav ul li a:hover{
+    color: orange;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav ul li a:visited{
+    color: orange;
+}
+/* End Head */
+
+
+/* Start footer*/
+.section3{
+    width: 100%;
+    height: 300px;
+    background-color: #ebe5e5;
+    position: absolute;
+    margin-top:530px;
+    text-align: center ;
+}
+
+.section3 h1{
+    margin-top: 100px;
+    font-size: 40px;
+
+}
+
+.section3 p{
+ margin-top: -20px;
+}
+
+.section3 .ftic1 a{
+    margin-top: 8px;
+font-size: 30px;
+color: #000000;
+padding-left: 20px;
+}
+
+.ftic1 .fb:hover{
+    color: #0059ff;
+}
+
+.ftic1 .ig:hover{
+    color: #ff7b00;
+}
+
+.ftic1 .tw:hover{
+    color: #0045c6;
+}
+
+.ftic1 .wh:hover{
+    color: #159b01;
+}
+
+.ftic1 .ml:hover{
+    color: #ff0000;
+}
+
+.ftic1 .ld:hover{
+    color: #0059ff;
+}
+
+
+/* End footer*/
