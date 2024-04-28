@@ -150,6 +150,10 @@ header .nav ul li{
 /* End Section*/
 
 /*Section 2 Start*/
+
+.servic1{
+    cursor: pointer;
+}
 .section2{
     width: 100%;
     height: 530px;
